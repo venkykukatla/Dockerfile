@@ -42,7 +42,7 @@ pipeline {
 
         stage('push') {
             steps {
-                sh 'sudo docker push 326541723545.dkr.ecr.us-east-1.amazonaws.com/imagessecr:latest'
+                sh 'sudo docker push 326541723545.dkr.ecr.us-east-1.amazonaws.com/imagessecr:v2'
 
             }
             
